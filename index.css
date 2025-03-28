@@ -1,0 +1,23 @@
+:root{ 
+    --span-text-color: #ffffffd2;
+    --text-color: #000000;
+    --big-size: 1.4rem;
+    --avatar-text-size: 0.8rem; 
+    --span-size: 0.7rem;
+    --p-size: 0.9rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+
+
+p{
+    font-size: var(--p-size);
+}
+
+span{
+    
+    font-size:var(--span-size);
+    font-weight: 500; 
+}
+
