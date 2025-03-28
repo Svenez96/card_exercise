@@ -12,8 +12,8 @@
     flex-wrap: wrap;
     gap:2rem;
     justify-content: center;
-    padding-top: 3rem;
-    background-color:rgb(137,198,227) ;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,198,227,1) 35%, rgba(0,212,255,1) 100%);
     padding: 3rem;
 }
 
@@ -24,7 +24,8 @@
     flex-direction: column;
     width: 320px;
     border-radius: 1rem;
-    background-color: rgb(246,244,242);
+    background: rgb(154,154,154);
+background: radial-gradient(circle, rgba(154,154,154,0.6502976190476191) 0%, rgba(238,238,238,1) 83%);
 }
 
 /*-----------------------------------------CARD CONTAINER TOP----------------------------------------------*/
@@ -72,6 +73,7 @@
 .card_container_bottom{
     display:flex;
     text-align: left;
+    
 }
 .card_container_bottom-pfp {
     padding:20px;
